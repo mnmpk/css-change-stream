@@ -1,7 +1,6 @@
 package com.example.demo;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.concurrent.CompletableFuture;
 
@@ -12,10 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
-import org.springframework.util.StopWatch;
-
-import com.mongodb.client.model.InsertOneModel;
-import com.mongodb.client.model.WriteModel;
 
 import lombok.var;
 
